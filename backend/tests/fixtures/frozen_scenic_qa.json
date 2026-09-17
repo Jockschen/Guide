@@ -1,0 +1,108 @@
+{
+  "dataset_version": "lingjing-frozen-v1-2026-07-11",
+  "source_policy": "Only facts copied from the provided local scenic knowledge package are accepted.",
+  "cases": [
+    {
+      "id": "LS-001-location",
+      "question": "灵山大照壁在哪里？",
+      "required_fact_groups": [["景区入口"], ["太湖"]],
+      "source_file": "灵山胜境 景点结构化数据集.docx"
+    },
+    {
+      "id": "LS-002-culture",
+      "question": "五明桥代表哪五种智慧？",
+      "required_fact_groups": [["声明"], ["因明"], ["内明"], ["医方明"], ["工巧明"]],
+      "source_file": "灵山胜境 景点结构化数据集.docx"
+    },
+    {
+      "id": "LS-003-culture",
+      "question": "佛足坛的佛足有什么特点？",
+      "required_fact_groups": [["释迦牟尼"], ["千辐轮"], ["32"]],
+      "source_file": "灵山胜境 景点结构化数据集.docx"
+    },
+    {
+      "id": "LS-006-show-times",
+      "question": "九龙灌浴平日演出时间是什么？",
+      "required_fact_groups": [["10:00"], ["11:30"], ["13:30"], ["15:00"]],
+      "source_file": "灵山胜境 景点结构化数据集.docx"
+    },
+    {
+      "id": "LS-008-culture",
+      "question": "阿育王柱的四头狮子象征什么？",
+      "required_fact_groups": [["东南西北", "四方"], ["佛法"], ["传播"]],
+      "source_file": "灵山胜境 景点结构化数据集.docx"
+    },
+    {
+      "id": "LS-009-meaning",
+      "question": "百子戏弥勒有什么寓意？",
+      "required_fact_groups": [["欢喜"], ["包容"], ["家庭和睦"], ["多子多福", "子孙满堂"]],
+      "source_file": "灵山胜境 景点结构化数据集.docx"
+    },
+    {
+      "id": "LS-010-history",
+      "question": "祥符禅寺始建于什么时期？",
+      "required_fact_groups": [["唐", "贞观"], ["窥基"]],
+      "source_file": "灵山胜境 景点结构化数据集.docx"
+    },
+    {
+      "id": "LS-011-location",
+      "question": "灵山大佛位于哪里？",
+      "required_fact_groups": [["祥符禅寺"], ["秦履峰"]],
+      "source_file": "灵山胜境 景点结构化数据集.docx"
+    },
+    {
+      "id": "NH-003-hours",
+      "question": "香月花街通常开放到几点？",
+      "required_fact_groups": [["9:00"], ["21:30"]],
+      "source_file": "灵山胜境 景点结构化数据集.docx"
+    },
+    {
+      "id": "NH-004-hours",
+      "question": "拈花堂的开放时间是什么？",
+      "required_fact_groups": [["9:30"], ["19:00"]],
+      "source_file": "灵山胜境 景点结构化数据集.docx"
+    },
+    {
+      "id": "NH-005-show-times",
+      "question": "五灯湖《禅行》灯光秀几点开始？",
+      "required_fact_groups": [["19:00"], ["20:00"]],
+      "source_file": "灵山胜境 景点结构化数据集.docx"
+    },
+    {
+      "id": "ticket-adult",
+      "question": "灵山胜境成人票多少钱？",
+      "required_fact_groups": [["210"], ["18周岁", "成年人"]],
+      "source_file": "灵山胜境：历史、文化、景点特色与个性化游览指南.docx"
+    },
+    {
+      "id": "ticket-half",
+      "question": "灵山胜境半价票多少钱？",
+      "required_fact_groups": [["105"], ["学生", "未成年人", "60-69"]],
+      "source_file": "灵山胜境：历史、文化、景点特色与个性化游览指南.docx"
+    },
+    {
+      "id": "ticket-online-combo",
+      "question": "门票加观光车的网购联票多少钱？",
+      "required_fact_groups": [["225"], ["观光车"]],
+      "source_file": "灵山胜境：历史、文化、景点特色与个性化游览指南.docx"
+    },
+    {
+      "id": "ticket-shuttle",
+      "question": "观光车单独购票多少钱？",
+      "required_fact_groups": [["40"], ["人"]],
+      "source_file": "灵山胜境：历史、文化、景点特色与个性化游览指南.docx"
+    },
+    {
+      "id": "visit-best-time",
+      "question": "灵山胜境建议什么季节和时间入园？",
+      "required_fact_groups": [["3-5月", "春"], ["9-11月", "秋"], ["9点前"]],
+      "source_file": "灵山胜境：历史、文化、景点特色与个性化游览指南.docx"
+    },
+    {
+      "id": "show-jixiangsong",
+      "question": "《吉祥颂》每天有哪些演出时间？",
+      "required_fact_groups": [["10:35"], ["11:30"], ["14:00"], ["16:00"]],
+      "source_file": "灵山胜境：历史、文化、景点特色与个性化游览指南.docx"
+    }
+  ]
+}

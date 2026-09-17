@@ -1,0 +1,23 @@
+{
+  "kind": "end_to_end_latency",
+  "scope_label": "本地端到端延迟自测（非比赛官方评测）",
+  "official_evaluation": false,
+  "timings_ms": {
+    "chat_ms": 13890.02,
+    "tts_ms": 3809.78,
+    "session_enqueue_ms": 39.19
+  },
+  "measured_total_ms": 17738.99,
+  "target_ms": 5000.0,
+  "measurement_complete": false,
+  "within_target": false,
+  "generated_at": "2026-07-12T15:08:09+08:00",
+  "question": "九龙灌浴今天有哪些演出时间？",
+  "answer_length": 236,
+  "tts_audio_ready": true,
+  "session_id": "sess_07f2794e2a4f",
+  "runtime": {
+    "base_url": "http://127.0.0.1:8000",
+    "voice": "gentle"
+  }
+}

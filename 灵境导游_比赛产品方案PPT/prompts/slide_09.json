@@ -1,0 +1,53 @@
+{
+  "slide": 9,
+  "title": "测试数据：已有证据与现场验证边界",
+  "prompt": "# Codex PPT Slide Image Prompt\n\n## Canvas\n{\n  \"type\": \"16:9 full-slide PowerPoint image\",\n  \"language\": \"Chinese\",\n  \"slide_number\": 9,\n  \"render_slide_number\": false\n}\n\n## Deck Goal\n在约 8–10 分钟内向比赛评审清晰呈现灵境导游的需求价值、完整方案、核心技术、创新差异、真实产品、测试证据与团队交付能力。\n\n## Required Background\n{\n  \"deck_context\": {\n    \"source_summary\": \"灵境导游面向智慧景区游客导览与运营管理，使用本地景区知识库、Qwen、多模态输入、Edge 中文语音、OpenTalking QuickTalk 与 WebRTC，提供实时问答、景点讲解、个性化推荐游线、数字人呈现和运营闭环。\",\n    \"core_claim\": \"景区真正需要的不是会说话的海报，而是一套 7×24、基于本地资料、可持续运营、可降级且有证据边界的数字导游系统。\",\n    \"canonical_terms\": [\n      \"灵境导游\",\n      \"A5—景区导览服务 AI 数字人\",\n      \"Qwen + RAG\",\n      \"OpenTalking QuickTalk\",\n      \"WebRTC\",\n      \"个性化推荐游线\"\n    ],\n    \"canonical_facts\": [\n      \"3 份本地资料、22 个景点、66 个可检索知识分片、113 条 FAQ\",\n      \"固定 17 题本地自测 17/17=100%；隐藏 30 题本地自测 28/30=93.33%\",\n      \"所有自测均非比赛官方评测\",\n      \"最新 WebRTC 报告为 720×720、25fps 目标档；会话创建到首个视频帧约 0.76s，音频到 speaking 约 0.19s，音频到可见口型运动约 2.93s\",\n      \"完整语音问答 30 次真实样本 P95<5s 仍待比赛机器现场实测\"\n    ]\n  }\n}\n\n## Global Style\n{\n  \"name\": \"山水科技答辩风\",\n  \"visual_direction\": \"formal Chinese innovation-competition defense deck combining restrained landscape-scroll aesthetics with modern information graphics; credible, cultured, evidence-led, calm and product-ready\",\n  \"color_palette\": \"warm paper white #F7F1E6, ink blue #0B3A66, indigo teal #2F617A, very sparse cinnabar red #C84C35; avoid blue gradients and neon\",\n  \"typography\": \"large dignified Chinese serif-like titles, clean readable Chinese sans-serif body, strong hierarchy, exact Chinese text, restrained English technical terms\",\n  \"texture_and_finish\": \"subtle rice-paper fibers, very pale low-contrast mountain-and-water ink linework, crisp modern diagrams, thin ink-blue rules, sparse cinnabar seal-like emphasis\",\n  \"deck_consistency\": \"keep the same palette, typography mood, paper texture, line-art icon language and cultural-tech balance across all slides; vary composition by semantic role\",\n  \"forbidden\": \"cyberpunk, neon, glassmorphism, generic blue technology gradient, dense card walls, excessive decoration, invented logos, watermarks, slide numbers\"\n}\n\n## Input Images\n\n- Image 1: F:\\灵境导游——面向智慧景区的多模态 AI 数字人导览系统\\灵境导游_比赛产品方案PPT\\origin_image\\slide_05.png — approved sample slide style reference; match palette, typography mood, paper texture, ink illustration language and density only; do not copy the exact layout or content\n- Image 2: F:\\灵境导游——面向智慧景区的多模态 AI 数字人导览系统\\reports\\quality\\opentalking-webrtc-evidence\\mouth-before.png — strict input evidence; WebRTC mouth-motion before frame; preserve the image and mouth region exactly; do not retouch or alter the face\n- Image 3: F:\\灵境导游——面向智慧景区的多模态 AI 数字人导览系统\\reports\\quality\\opentalking-webrtc-evidence\\mouth-motion-peak.png — strict input evidence; WebRTC visible mouth-motion peak frame; preserve the image and mouth region exactly; do not retouch or alter the face\n\n\n## Slide\n{\n  \"number\": 9,\n  \"title\": \"测试数据：已有证据与现场验证边界\",\n  \"role\": \"data evidence\",\n  \"intent\": \"用准确率、实时链路和口型运动证据建立可信度，同时明确本地自测与官方评测边界。\"\n}\n\n## Text\n{\n  \"title\": \"测试数据：已有证据与现场验证边界\",\n  \"key_points\": [\n    \"固定 17 题：17/17＝100%｜隐藏 30 题：28/30＝93.33%\",\n    \"WebRTC 音视频轨、speaking 状态、连续帧变化与可见嘴部运动检查通过\",\n    \"首个视频帧约 0.76s｜音频到 speaking 约 0.19s｜音频到可见口型约 2.93s\",\n    \"以上均为本地证据、非官方成绩；30 次真实样本 P95＜5s 待现场实测\"\n  ],\n  \"speaker_focus\": null\n}\n\n## Layout\n{\n  \"composition\": \"left 55% evidence dashboard with two accuracy indicators and three latency milestones; right 38% side-by-side before/visible-mouth-motion image comparison; bottom full-width evidence-boundary strip\",\n  \"content_zones\": \"title top; metrics left; strict evidence images right with exact captions 口型运动前 and 口型运动峰值; disclaimer bottom\",\n  \"variation_rule\": \"data evidence page with clear hierarchy and no decorative chart clutter\",\n  \"spacing\": \"large numbers, short labels, images large enough to inspect\"\n}\n\n## Visual Elements\n{\n  \"main_visual\": \"two accuracy ratios, three timing milestones and the supplied before/after evidence frames\",\n  \"supporting_elements\": \"blue 已证实 marker and cinnabar 待现场验证 marker\"\n}\n\n## Source Image Rules\nThe two evidence frames are strict. Do not modify the person, face or mouth; use them as supplied and label them clearly.\n\n## Constraints\n[\n  \"Render 本地自测，非比赛官方评测 clearly.\",\n  \"Do not claim end-to-end P95 under 5 seconds as achieved.\",\n  \"Use the exact values 100%, 93.33%, 0.76s, 0.19s and 2.93s.\"\n]\n\n## Style Reference Rule\nUse Image 1 as the approved sample-slide style reference. Match its palette, typography mood, density, texture, and overall visual identity. Do not copy its exact layout unless this slide's layout explicitly asks for it.\n\n## Input Image Handling Rules\nFor any input image marked as a strict input asset, include it visibly and preserve its content. Do not redraw, replace, relabel, or invent a similar figure. Scale and crop only as needed for composition while keeping the important labels, arrows, data, and relationships recognizable.\n\n## Universal Constraints\n- The final image itself must contain the title and key points.\n- Render Chinese text exactly and legibly; avoid garbled characters.\n- Keep the confirmed deck style consistent while varying layout by slide role.\n- No watermark, unrelated logo, or extra slide number.\n",
+  "out": "slide_09.png",
+  "input_images": [
+    {
+      "path": "F:\\灵境导游——面向智慧景区的多模态 AI 数字人导览系统\\灵境导游_比赛产品方案PPT\\origin_image\\slide_05.png",
+      "role": "approved sample slide style reference",
+      "fidelity": "match palette, typography mood, paper texture, ink illustration language and density only; do not copy the exact layout or content"
+    },
+    {
+      "path": "F:\\灵境导游——面向智慧景区的多模态 AI 数字人导览系统\\reports\\quality\\opentalking-webrtc-evidence\\mouth-before.png",
+      "role": "strict input evidence; WebRTC mouth-motion before frame",
+      "fidelity": "preserve the image and mouth region exactly; do not retouch or alter the face"
+    },
+    {
+      "path": "F:\\灵境导游——面向智慧景区的多模态 AI 数字人导览系统\\reports\\quality\\opentalking-webrtc-evidence\\mouth-motion-peak.png",
+      "role": "strict input evidence; WebRTC visible mouth-motion peak frame",
+      "fidelity": "preserve the image and mouth region exactly; do not retouch or alter the face"
+    }
+  ],
+  "requires_context_images": true,
+  "expected_backend": "built-in image tool",
+  "sample_generation_method": {
+    "backend_used": "built-in image tool",
+    "tool_name": "image_gen__imagegen",
+    "mode": "generate",
+    "prompt_source": "Codex conversation prompt approved on 2026-07-16 for slide 05",
+    "size": "16:9 landscape, 1672x939 generated output",
+    "quality": "built-in default",
+    "model_config": "built-in preferred image model path; exact model setting not exposed",
+    "approved_sample_path": "F:\\灵境导游——面向智慧景区的多模态 AI 数字人导览系统\\灵境导游_比赛产品方案PPT\\origin_image\\slide_05.png",
+    "input_context_preparation": "The sample was generated without source images. For later slides, the parent inspects each local asset with view_image and supplies local paths to image_gen as references; the approved sample is a style-only reference.",
+    "handoff_rule": "Subagents must use the same built-in image tool and generation mode; return a blocker if that path is unavailable."
+  },
+  "generation_contract": {
+    "must_use_selected_image_backend": true,
+    "must_match_sample_generation_method": true,
+    "forbidden_final_image_methods": [
+      "local drawing/rendering scripts",
+      "Pillow-generated slides",
+      "SVG/HTML/CSS/canvas screenshots",
+      "python-pptx/PptxGenJS/native PPT layout screenshots",
+      "manually composited text/image overlays"
+    ],
+    "must_return": [
+      "backend_used",
+      "selected_source",
+      "qa_note"
+    ]
+  }
+}

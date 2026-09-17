@@ -1,0 +1,248 @@
+{
+  "dataset_version": "lingjing-hidden-v1-2026-07-13",
+  "report_slug": "hidden-qa",
+  "report_title": "隐藏问答集准确率报告",
+  "source_policy": "Only facts copied from the provided local scenic knowledge package are accepted. The visitor answer pipeline must not read this fixture.",
+  "cases": [
+    {
+      "id": "hidden-history-temple-rename",
+      "category": "历史",
+      "question": "祥符禅寺是在什么时期正式改用现名的？",
+      "required_fact_groups": [["北宋年间"], ["祥符禅寺"]],
+      "source_title": "祥符禅寺（LS-010）",
+      "source_file": "灵山胜境 景点结构化数据集.docx"
+    },
+    {
+      "id": "hidden-history-fangong-forum",
+      "category": "历史",
+      "question": "灵山梵宫曾作为哪几届世界佛教论坛的永久会址？",
+      "required_fact_groups": [["第二"], ["四届"], ["世界佛教论坛"], ["永久会址"]],
+      "source_title": "灵山梵宫（LS-013）",
+      "source_file": "灵山胜境 景点结构化数据集.docx"
+    },
+    {
+      "id": "hidden-history-manfeilong-origin",
+      "category": "历史",
+      "question": "灵山的曼飞龙塔复刻自哪里的什么建筑？",
+      "required_fact_groups": [["云南西双版纳景洪市"], ["曼飞龙白塔"], ["南传佛教"]],
+      "source_title": "曼飞龙塔（LS-015）",
+      "source_file": "灵山胜境 景点结构化数据集.docx"
+    },
+    {
+      "id": "hidden-history-wujinyi-scripture",
+      "category": "历史",
+      "question": "“无尽意斋”的名称取自哪部佛教经典，它纪念谁？",
+      "required_fact_groups": [["无尽意菩萨经"], ["赵朴初先生"], ["纪念馆"]],
+      "source_title": "无尽意斋（LS-016）",
+      "source_file": "灵山胜境 景点结构化数据集.docx"
+    },
+    {
+      "id": "hidden-history-museum-wanfo",
+      "category": "历史",
+      "question": "佛教文化博览馆的“万佛朝宗”由哪些佛像组成？",
+      "required_fact_groups": [["9999尊小佛像"], ["灵山大佛"], ["万佛朝宗"]],
+      "source_title": "佛教文化博览馆（LS-012）",
+      "source_file": "灵山胜境 景点结构化数据集.docx"
+    },
+    {
+      "id": "hidden-culture-wall-calligraphy",
+      "category": "文化",
+      "question": "灵山大照壁上的镏金“灵山胜境”四字是谁题写的？",
+      "required_fact_groups": [["赵朴初先生", "赵朴初"]],
+      "source_title": "灵山大照壁（LS-001）",
+      "source_file": "灵山胜境 景点结构化数据集.docx"
+    },
+    {
+      "id": "hidden-culture-wuzhimen-six-pillars",
+      "category": "文化",
+      "question": "五智门的六根门柱代表什么佛教修行智慧？",
+      "required_fact_groups": [["六度波罗蜜"], ["布施"], ["持戒"], ["般若"]],
+      "source_title": "五智门（LS-004）",
+      "source_file": "灵山胜境 景点结构化数据集.docx"
+    },
+    {
+      "id": "hidden-culture-bodhi-avenue",
+      "category": "文化",
+      "question": "菩提大道为什么以菩提树为核心景观？",
+      "required_fact_groups": [["菩提树"], ["悟道成佛"], ["内心觉悟"]],
+      "source_title": "菩提大道（LS-005）",
+      "source_file": "灵山胜境 景点结构化数据集.docx"
+    },
+    {
+      "id": "hidden-culture-subduing-relief",
+      "category": "文化",
+      "question": "降魔浮雕讲述了什么故事，传递哪种禅理？",
+      "required_fact_groups": [["魔王波旬"], ["觉悟成佛"], ["坚守本心、终能成道"]],
+      "source_title": "降魔浮雕（LS-007）",
+      "source_file": "灵山胜境 景点结构化数据集.docx"
+    },
+    {
+      "id": "hidden-culture-nianhua-square",
+      "category": "文化",
+      "question": "拈花广场的核心文化符号来自哪个佛教典故？",
+      "required_fact_groups": [["拈花微笑"], ["迦叶拈花、佛陀微笑"], ["顿悟成佛"]],
+      "source_title": "拈花广场（NH-001）",
+      "source_file": "灵山胜境 景点结构化数据集.docx"
+    },
+    {
+      "id": "hidden-attraction-wuzhimen-location",
+      "category": "景点",
+      "question": "五智门在佛足坛的哪个方向，它位于景区哪条动线上？",
+      "required_fact_groups": [["佛足坛"], ["北"], ["景区中轴线", "中轴线"]],
+      "source_title": "五智门（LS-004）",
+      "source_file": "灵山胜境 景点结构化数据集.docx"
+    },
+    {
+      "id": "hidden-attraction-relief-location",
+      "category": "景点",
+      "question": "降魔浮雕处于九龙灌浴和阿育王柱之间的什么位置？",
+      "required_fact_groups": [["九龙灌浴"], ["北"], ["阿育王柱"], ["前"], ["景区中轴线", "中轴线"]],
+      "source_title": "降魔浮雕（LS-007）",
+      "source_file": "灵山胜境 景点结构化数据集.docx"
+    },
+    {
+      "id": "hidden-attraction-museum-layout",
+      "category": "景点",
+      "question": "佛教文化博览馆设在哪里，共有几层？",
+      "required_fact_groups": [["灵山大佛"], ["座基"], ["三层", "3层"]],
+      "source_title": "佛教文化博览馆（LS-012）",
+      "source_file": "灵山胜境 景点结构化数据集.docx"
+    },
+    {
+      "id": "hidden-attraction-tancheng-location",
+      "category": "景点",
+      "question": "五印坛城位于哪片水域，是什么样的地形？",
+      "required_fact_groups": [["香水海中央"], ["独立圆岛"], ["四面环水"]],
+      "source_title": "五印坛城（LS-014）",
+      "source_file": "灵山胜境 景点结构化数据集.docx"
+    },
+    {
+      "id": "hidden-attraction-luming-valley",
+      "category": "景点",
+      "question": "鹿鸣谷在拈花湾的哪一侧，与梵天花海什么方位关系？",
+      "required_fact_groups": [["拈花湾小镇"], ["西"], ["梵天花海"], ["北"]],
+      "source_title": "鹿鸣谷（NH-006）",
+      "source_file": "灵山胜境 景点结构化数据集.docx"
+    },
+    {
+      "id": "hidden-ticket-free-child",
+      "category": "票务",
+      "question": "哪些儿童符合灵山胜境免票条件？",
+      "required_fact_groups": [["6周岁以下", "未满6周岁"], ["1.4米以下"], ["儿童"]],
+      "source_title": "免票",
+      "source_file": "灵山胜境：历史、文化、景点特色与个性化游览指南.docx"
+    },
+    {
+      "id": "hidden-ticket-free-groups",
+      "category": "票务",
+      "question": "除儿童外，资料还列出哪些免票人群？",
+      "required_fact_groups": [["70周岁"], ["老人", "长者"], ["现役军人"], ["残疾人"]],
+      "source_title": "免票",
+      "source_file": "灵山胜境：历史、文化、景点特色与个性化游览指南.docx"
+    },
+    {
+      "id": "hidden-ticket-half-groups",
+      "category": "票务",
+      "question": "学生和60至69岁老人可以买哪种票，资料价格多少？",
+      "required_fact_groups": [["半价票"], ["105元", "105"], ["全日制本科"], ["学生"], ["60-69周岁", "60至69周岁", "60到69周岁"]],
+      "source_title": "半价票",
+      "source_file": "灵山胜境：历史、文化、景点特色与个性化游览指南.docx"
+    },
+    {
+      "id": "hidden-ticket-dining",
+      "category": "票务",
+      "question": "资料里梵宫素斋自助和素面套餐分别多少钱？",
+      "required_fact_groups": [["50元/位"], ["35元/位"], ["梵宫素斋自助"], ["素面套餐"]],
+      "source_title": "餐饮：",
+      "source_file": "灵山胜境：历史、文化、景点特色与个性化游览指南.docx"
+    },
+    {
+      "id": "hidden-ticket-shuttle-advice",
+      "category": "票务",
+      "question": "体力有限的游客如果单独购买景区观光车，资料价格是多少？",
+      "required_fact_groups": [["40元/人"], ["体力有限的游客"], ["景区内交通"]],
+      "source_title": "观光车单独购票",
+      "source_file": "灵山胜境：历史、文化、景点特色与个性化游览指南.docx"
+    },
+    {
+      "id": "hidden-show-jiulong-duration",
+      "category": "演出",
+      "question": "九龙灌浴每场演出大约多久，资料建议提前多久到场？",
+      "required_fact_groups": [["每场演出时长约15分钟"], ["提前10分钟到场占位"]],
+      "source_title": "九龙灌浴（LS-006）",
+      "source_file": "灵山胜境 景点结构化数据集.docx"
+    },
+    {
+      "id": "hidden-show-museum-guide",
+      "category": "演出",
+      "question": "佛教文化博览馆的免费讲解有哪些时段？",
+      "required_fact_groups": [["9:30"], ["11:00"], ["14:30"], ["16:00"], ["免费讲解服务"]],
+      "source_title": "佛教文化博览馆（LS-012）",
+      "source_file": "灵山胜境 景点结构化数据集.docx"
+    },
+    {
+      "id": "hidden-show-jixiangsong-admission",
+      "category": "演出",
+      "question": "《灵山吉祥颂》每场多长，是否需另外购票，建议提前多久到？",
+      "required_fact_groups": [["20分钟"], ["景区大门票"], ["免费入场", "无需另外购票"], ["提前30分钟"]],
+      "source_title": "灵山梵宫（LS-013）",
+      "source_file": "灵山胜境 景点结构化数据集.docx"
+    },
+    {
+      "id": "hidden-show-tancheng-incense",
+      "category": "演出",
+      "question": "五印坛城的藏香制作体验什么时间开始，每场多久？",
+      "required_fact_groups": [["10:00"], ["14:00"], ["每场时长约40分钟"], ["景区小程序预约"]],
+      "source_title": "五印坛城（LS-014）",
+      "source_file": "灵山胜境 景点结构化数据集.docx"
+    },
+    {
+      "id": "hidden-show-nianhuatang-lecture",
+      "category": "演出",
+      "question": "拈花堂的禅意讲座每天有哪两场，每场多长？",
+      "required_fact_groups": [["10:30"], ["15:30"], ["40分钟"], ["无需预约"]],
+      "source_title": "拈花堂（NH-004）",
+      "source_file": "灵山胜境 景点结构化数据集.docx"
+    },
+    {
+      "id": "hidden-advice-history-route",
+      "category": "游览建议",
+      "question": "指南给历史文化爱好者安排的深度行程是几小时，其中包含祥符禅寺和哪个藏传佛教文化景点？",
+      "required_fact_groups": [["6小时"], ["祥符禅寺"], ["五印坛城"]],
+      "source_title": "历史文化爱好者路线（6小时深度游）",
+      "source_file": "灵山胜境：历史、文化、景点特色与个性化游览指南.docx"
+    },
+    {
+      "id": "hidden-advice-nature-route",
+      "category": "游览建议",
+      "question": "指南给自然风光爱好者安排的全景行程是几小时，并列出的两个园林禅意节点是什么？",
+      "required_fact_groups": [["5小时"], ["曼飞龙塔"], ["灵山精舍"]],
+      "source_title": "自然风光爱好者路线（5小时全景游）",
+      "source_file": "灵山胜境：历史、文化、景点特色与个性化游览指南.docx"
+    },
+    {
+      "id": "hidden-advice-family-route",
+      "category": "游览建议",
+      "question": "指南给亲子家庭安排的轻松行程是几小时，其中包含百子戏弥勒和哪个藏式文化体验点？",
+      "required_fact_groups": [["4小时"], ["百子戏弥勒"], ["五印坛城"]],
+      "source_title": "亲子家庭路线（4小时轻松游）",
+      "source_file": "灵山胜境：历史、文化、景点特色与个性化游览指南.docx"
+    },
+    {
+      "id": "hidden-advice-flower-seasons",
+      "category": "游览建议",
+      "question": "想按季节在梵天花海拍花，春季和夏季分别可拍什么？",
+      "required_fact_groups": [["春季"], ["格桑花"], ["夏季"], ["硫华菊"]],
+      "source_title": "梵天花海（NH-002）",
+      "source_file": "灵山胜境 景点结构化数据集.docx"
+    },
+    {
+      "id": "hidden-advice-flower-street",
+      "category": "游览建议",
+      "question": "在香月花街想体验手作和特色饮食，资料推荐什么？",
+      "required_fact_groups": [["剪纸"], ["陶艺"], ["素面"], ["禅茶"]],
+      "source_title": "香月花街（NH-003）",
+      "source_file": "灵山胜境 景点结构化数据集.docx"
+    }
+  ]
+}

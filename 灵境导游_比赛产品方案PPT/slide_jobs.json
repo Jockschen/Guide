@@ -1,0 +1,454 @@
+{
+  "run_status": "slides_recorded",
+  "deck_name": "灵境导游_比赛产品方案PPT",
+  "selected_backend": "built-in image tool",
+  "sample_generation_method": {
+    "backend_used": "built-in image tool",
+    "tool_name": "image_gen__imagegen",
+    "mode": "generate",
+    "prompt_source": "Codex conversation prompt approved on 2026-07-16 for slide 05",
+    "size": "16:9 landscape, 1672x939 generated output",
+    "quality": "built-in default",
+    "model_config": "built-in preferred image model path; exact model setting not exposed",
+    "approved_sample_path": "F:\\灵境导游——面向智慧景区的多模态 AI 数字人导览系统\\灵境导游_比赛产品方案PPT\\origin_image\\slide_05.png",
+    "input_context_preparation": "The sample was generated without source images. For later slides, the parent inspects each local asset with view_image and supplies local paths to image_gen as references; the approved sample is a style-only reference.",
+    "handoff_rule": "Subagents must use the same built-in image tool and generation mode; return a blocker if that path is unavailable."
+  },
+  "max_concurrent_slides": 1,
+  "slides": [
+    {
+      "slide_id": "slide_01",
+      "number": 1,
+      "title": "灵境导游",
+      "job": "prompts/slide_01.json",
+      "out": "origin_image/slide_01.png",
+      "input_images": [
+        {
+          "path": "F:\\灵境导游——面向智慧景区的多模态 AI 数字人导览系统\\灵境导游_比赛产品方案PPT\\origin_image\\slide_05.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match palette, typography mood, paper texture, ink illustration language and density only; do not copy the exact layout or content"
+        },
+        {
+          "path": "F:\\灵境导游——面向智慧景区的多模态 AI 数字人导览系统\\public\\assets\\generated\\hero-lingshan-v2.png",
+          "role": "strict input asset; scenic background and brand environment",
+          "fidelity": "preserve the scenic identity and main landmark; atmospheric crop and soft paper-texture blending are allowed"
+        },
+        {
+          "path": "F:\\灵境导游——面向智慧景区的多模态 AI 数字人导览系统\\public\\assets\\generated\\avatar-guide-v2.png",
+          "role": "strict input asset; the current Lingjing digital-human guide",
+          "fidelity": "preserve the same woman's identity, facial features, hairstyle, navy-and-ivory Chinese outfit and red knot; do not replace or redesign the person"
+        }
+      ],
+      "requires_context_images": true,
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "/root/slide_01",
+        "agent_nickname": "slide_01",
+        "prompt": "prompts/slide_01.json",
+        "prompt_sha256": "bb3420bc8ff775bb0c7b8fa039ac9120013cc01bd13c72bc5de6d41cd567c7e2",
+        "dispatched_at": "2026-07-16T08:22:03Z"
+      },
+      "result": {
+        "agent_id": "/root/slide_01",
+        "backend_used": "built-in image tool",
+        "selected_source": "C:\\Users\\陈术\\.codex\\generated_images\\019f6a04-0529-7d61-b304-70e19c9785cb\\exec-07a17b52-7f09-431c-8c48-3299ea83dd6b.png",
+        "selected_source_sha256": "a249662ef2662e87cbcbde5f480e85315302dfb9be46db5e47d2f830147b5a62",
+        "final_image": "origin_image/slide_01.png",
+        "final_image_sha256": "a249662ef2662e87cbcbde5f480e85315302dfb9be46db5e47d2f830147b5a62",
+        "expected_backend": "built-in image tool",
+        "expected_backend_labels": [
+          "built-in image tool",
+          "image_gen__imagegen"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "中文信息准确清晰；数字人与灵山地标保留；构图无重叠截断；风格与已确认样稿一致。",
+        "recorded_at": "2026-07-16T08:26:04Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_02",
+      "number": 2,
+      "title": "为什么景区需要 AI 数字人导游",
+      "job": "prompts/slide_02.json",
+      "out": "origin_image/slide_02.png",
+      "input_images": [
+        {
+          "path": "F:\\灵境导游——面向智慧景区的多模态 AI 数字人导览系统\\灵境导游_比赛产品方案PPT\\origin_image\\slide_05.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match palette, typography mood, paper texture, ink illustration language and density only; do not copy the exact layout or content"
+        }
+      ],
+      "requires_context_images": true,
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "/root/slide_02",
+        "agent_nickname": "slide_02",
+        "prompt": "prompts/slide_02.json",
+        "prompt_sha256": "6063ed1f78f7edc9268d4d5dcefce06fa68bbf610a6abeec39f06d98b60e3b92",
+        "dispatched_at": "2026-07-16T08:28:11Z"
+      },
+      "result": {
+        "agent_id": "/root/slide_02",
+        "backend_used": "built-in image tool",
+        "selected_source": "C:\\Users\\陈术\\.codex\\generated_images\\019f6a09-7b2a-71e1-ad6d-1c11a49251ee\\exec-e3efcd48-e543-4938-9bcc-15190e4a6953.png",
+        "selected_source_sha256": "ea9b45ad75aadac1d6d2529d1d6ce348ff4fa69058fb5aee14cc9da36f076e6e",
+        "final_image": "origin_image/slide_02.png",
+        "final_image_sha256": "ea9b45ad75aadac1d6d2529d1d6ce348ff4fa69058fb5aee14cc9da36f076e6e",
+        "expected_backend": "built-in image tool",
+        "expected_backend_labels": [
+          "built-in image tool",
+          "image_gen__imagegen"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "中文准确清晰；行前—游中—游后旅程与三处断点表达完整；无重叠截断；风格一致。",
+        "recorded_at": "2026-07-16T08:31:54Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_03",
+      "number": 3,
+      "title": "一套系统，连接游客体验与景区运营",
+      "job": "prompts/slide_03.json",
+      "out": "origin_image/slide_03.png",
+      "input_images": [
+        {
+          "path": "F:\\灵境导游——面向智慧景区的多模态 AI 数字人导览系统\\灵境导游_比赛产品方案PPT\\origin_image\\slide_05.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match palette, typography mood, paper texture, ink illustration language and density only; do not copy the exact layout or content"
+        }
+      ],
+      "requires_context_images": true,
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "/root/slide_03",
+        "agent_nickname": "slide_03",
+        "prompt": "prompts/slide_03.json",
+        "prompt_sha256": "623e533aefeb11751251553d4ef5f265ee9faba298250d6c12a267dc9e8898ee",
+        "dispatched_at": "2026-07-16T08:34:04Z"
+      },
+      "result": {
+        "agent_id": "/root/slide_03",
+        "backend_used": "built-in image tool",
+        "selected_source": "C:\\Users\\陈术\\.codex\\generated_images\\019f6a0f-1a3b-7060-abca-11250c093845\\exec-316ab25d-9680-4f43-a259-9d98de20cd0a.png",
+        "selected_source_sha256": "2fc047be596f99183e47cb6409776960a44a4176fcbf9297e259950bc0541582",
+        "final_image": "origin_image/slide_03.png",
+        "final_image_sha256": "2fc047be596f99183e47cb6409776960a44a4176fcbf9297e259950bc0541582",
+        "expected_backend": "built-in image tool",
+        "expected_backend_labels": [
+          "built-in image tool",
+          "image_gen__imagegen"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "服务—数据双向闭环清晰；中文准确；已将气泡占位词修复为“欢迎来到灵山胜境！”；风格一致，无截断。",
+        "recorded_at": "2026-07-16T08:47:35Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_04",
+      "number": 4,
+      "title": "从多模态输入到实时数字人输出",
+      "job": "prompts/slide_04.json",
+      "out": "origin_image/slide_04.png",
+      "input_images": [
+        {
+          "path": "F:\\灵境导游——面向智慧景区的多模态 AI 数字人导览系统\\灵境导游_比赛产品方案PPT\\origin_image\\slide_05.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match palette, typography mood, paper texture, ink illustration language and density only; do not copy the exact layout or content"
+        }
+      ],
+      "requires_context_images": true,
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "/root/slide_04",
+        "agent_nickname": "slide_04",
+        "prompt": "prompts/slide_04.json",
+        "prompt_sha256": "0e826f5cef759c96c23f7c8930d03e43daeb10c165dd8f7eb9dba801326f43ef",
+        "dispatched_at": "2026-07-16T08:49:24Z"
+      },
+      "result": {
+        "agent_id": "/root/slide_04",
+        "backend_used": "built-in image tool",
+        "selected_source": "C:\\Users\\陈术\\.codex\\generated_images\\019f6a1d-43d3-70d2-8d45-aecead63780f\\exec-9ab465b2-afd5-44f3-baf6-b2cb8f4ff6e2.png",
+        "selected_source_sha256": "67d30fc88e3e1d4332c2a5f1c505a776d26cce6bc418d092d31cc8d9a0ef8738",
+        "final_image": "origin_image/slide_04.png",
+        "final_image_sha256": "67d30fc88e3e1d4332c2a5f1c505a776d26cce6bc418d092d31cc8d9a0ef8738",
+        "expected_backend": "built-in image tool",
+        "expected_backend_labels": [
+          "built-in image tool",
+          "image_gen__imagegen"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "四层架构清晰，知识数据与技术标签准确，韧性链路作为次级路径呈现；无重叠截断，风格一致。",
+        "recorded_at": "2026-07-16T08:57:46Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_05",
+      "number": 5,
+      "title": "核心技术与模型",
+      "job": "prompts/slide_05.json",
+      "out": "origin_image/slide_05.png",
+      "input_images": [],
+      "requires_context_images": false,
+      "status": "accepted",
+      "dispatch": null,
+      "result": {
+        "final_image": "origin_image/slide_05.png",
+        "accepted_sample": true
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_06",
+      "number": 6,
+      "title": "五项创新，构成可落地的数字导游",
+      "job": "prompts/slide_06.json",
+      "out": "origin_image/slide_06.png",
+      "input_images": [
+        {
+          "path": "F:\\灵境导游——面向智慧景区的多模态 AI 数字人导览系统\\灵境导游_比赛产品方案PPT\\origin_image\\slide_05.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match palette, typography mood, paper texture, ink illustration language and density only; do not copy the exact layout or content"
+        }
+      ],
+      "requires_context_images": true,
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "/root/slide_06",
+        "agent_nickname": "slide_06",
+        "prompt": "prompts/slide_06.json",
+        "prompt_sha256": "c3f83ee1e40f203cd5230df9bb2009cd0ab13e08577c464ad4b92e6e2828b3b4",
+        "dispatched_at": "2026-07-16T09:00:09Z"
+      },
+      "result": {
+        "agent_id": "/root/slide_06",
+        "backend_used": "built-in image tool",
+        "selected_source": "C:\\Users\\陈术\\.codex\\generated_images\\019f6a27-2cae-7a01-9fa3-7b02ad5cb9a2\\exec-57ea00f6-9100-4bd0-af56-a2e5bdd0f605.png",
+        "selected_source_sha256": "2acfc09d5ace01e42f7ebeae1b3e2ad2fd9c9dff55e79bbf98e9a8a70edf7ac5",
+        "final_image": "origin_image/slide_06.png",
+        "final_image_sha256": "2acfc09d5ace01e42f7ebeae1b3e2ad2fd9c9dff55e79bbf98e9a8a70edf7ac5",
+        "expected_backend": "built-in image tool",
+        "expected_backend_labels": [
+          "built-in image tool",
+          "image_gen__imagegen"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "五项创新名称准确、结构清晰，以可信运营为中心形成组合创新；无重叠截断，风格一致。",
+        "recorded_at": "2026-07-16T09:04:00Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_07",
+      "number": 7,
+      "title": "游客端：一位安静、可信的随身导游",
+      "job": "prompts/slide_07.json",
+      "out": "origin_image/slide_07.png",
+      "input_images": [
+        {
+          "path": "F:\\灵境导游——面向智慧景区的多模态 AI 数字人导览系统\\灵境导游_比赛产品方案PPT\\origin_image\\slide_05.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match palette, typography mood, paper texture, ink illustration language and density only; do not copy the exact layout or content"
+        },
+        {
+          "path": "F:\\灵境导游——面向智慧景区的多模态 AI 数字人导览系统\\reports\\visual\\ui-after\\desktop-1440x900.png",
+          "role": "strict input asset; current tourist desktop product screenshot",
+          "fidelity": "preserve the screenshot interface, text, avatar, brand and interaction layout; do not redraw or replace it with an imagined interface"
+        },
+        {
+          "path": "F:\\灵境导游——面向智慧景区的多模态 AI 数字人导览系统\\reports\\visual\\ui-after\\mobile-390x844.png",
+          "role": "strict input asset; current tourist mobile product screenshot",
+          "fidelity": "preserve the screenshot interface, text, avatar and responsive layout; do not redraw or replace it"
+        }
+      ],
+      "requires_context_images": true,
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "/root/slide_07",
+        "agent_nickname": "slide_07",
+        "prompt": "prompts/slide_07.json",
+        "prompt_sha256": "b03af510c058066a49e397ac26a28eda870a3ba1ed5ca05b01ce1b6fa69850ed",
+        "dispatched_at": "2026-07-16T09:06:48Z"
+      },
+      "result": {
+        "agent_id": "user-approved-workflow-exception",
+        "backend_used": "deterministic exact screenshot composition",
+        "selected_source": "F:\\灵境导游——面向智慧景区的多模态 AI 数字人导览系统\\灵境导游_比赛产品方案PPT\\origin_image\\slide_07.png",
+        "selected_source_sha256": "80f4132b8409af90472e30192bd989b253762b8cb96e0defe7da25109159e90e",
+        "final_image": "origin_image/slide_07.png",
+        "final_image_sha256": "80f4132b8409af90472e30192bd989b253762b8cb96e0defe7da25109159e90e",
+        "expected_backend": null,
+        "expected_backend_labels": [
+          "user-approved product screenshot exception"
+        ],
+        "sample_generation_method_matched": false,
+        "qa_note": "截图保持原始像素；标题改用方正粗黑宋简体，朱砂标签与小标题使用华文中宋，说明文字使用轻量微软雅黑，字号与层级已统一。",
+        "user_override": {
+          "approved": true,
+          "approval_text": "用户于 2026-07-16 反馈字体不一致并要求统一。",
+          "recorded_at": "2026-07-16T09:42:04Z"
+        },
+        "recorded_at": "2026-07-16T09:42:04Z"
+      },
+      "blocker": null,
+      "resolved_blocker": null
+    },
+    {
+      "slide_id": "slide_08",
+      "number": 8,
+      "title": "运营后台：让每一次服务持续变好",
+      "job": "prompts/slide_08.json",
+      "out": "origin_image/slide_08.png",
+      "input_images": [
+        {
+          "path": "F:\\灵境导游——面向智慧景区的多模态 AI 数字人导览系统\\灵境导游_比赛产品方案PPT\\origin_image\\slide_05.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match palette, typography mood, paper texture, ink illustration language and density only; do not copy the exact layout or content"
+        },
+        {
+          "path": "F:\\灵境导游——面向智慧景区的多模态 AI 数字人导览系统\\reports\\visual\\ui-after\\admin-1440x900.png",
+          "role": "strict input asset; current admin operation overview screenshot",
+          "fidelity": "preserve the screenshot structure, Chinese UI text, charts and data-source labels; do not redraw or invent a different dashboard"
+        }
+      ],
+      "requires_context_images": true,
+      "status": "recorded",
+      "dispatch": null,
+      "result": {
+        "agent_id": "user-approved-workflow-exception",
+        "backend_used": "deterministic exact screenshot composition",
+        "selected_source": "F:\\灵境导游——面向智慧景区的多模态 AI 数字人导览系统\\灵境导游_比赛产品方案PPT\\origin_image\\slide_08.png",
+        "selected_source_sha256": "60d8380808d2a5d6e802a0b6484cd6b35022ad83352188bceaae227a26ff6f46",
+        "final_image": "origin_image/slide_08.png",
+        "final_image_sha256": "60d8380808d2a5d6e802a0b6484cd6b35022ad83352188bceaae227a26ff6f46",
+        "expected_backend": null,
+        "expected_backend_labels": [
+          "user-approved product screenshot exception"
+        ],
+        "sample_generation_method_matched": false,
+        "qa_note": "管理后台截图以原始分辨率逐像素嵌入并通过像素一致性断言；页眉、字体和朱砂笔触沿用第 7 页确认风格，右侧为确定性绘制的知识—服务—反馈—优化闭环。",
+        "user_override": {
+          "approved": true,
+          "approval_text": "用户于 2026-07-16 选择 A：允许产品截图页使用确定性排版以保证截图像素完全不变。",
+          "recorded_at": "2026-07-16T09:46:01Z"
+        },
+        "recorded_at": "2026-07-16T09:46:01Z"
+      },
+      "blocker": null,
+      "resolved_blocker": null
+    },
+    {
+      "slide_id": "slide_09",
+      "number": 9,
+      "title": "测试数据：已有证据与现场验证边界",
+      "job": "prompts/slide_09.json",
+      "out": "origin_image/slide_09.png",
+      "input_images": [
+        {
+          "path": "F:\\灵境导游——面向智慧景区的多模态 AI 数字人导览系统\\灵境导游_比赛产品方案PPT\\origin_image\\slide_05.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match palette, typography mood, paper texture, ink illustration language and density only; do not copy the exact layout or content"
+        },
+        {
+          "path": "F:\\灵境导游——面向智慧景区的多模态 AI 数字人导览系统\\reports\\quality\\opentalking-webrtc-evidence\\mouth-before.png",
+          "role": "strict input evidence; WebRTC mouth-motion before frame",
+          "fidelity": "preserve the image and mouth region exactly; do not retouch or alter the face"
+        },
+        {
+          "path": "F:\\灵境导游——面向智慧景区的多模态 AI 数字人导览系统\\reports\\quality\\opentalking-webrtc-evidence\\mouth-motion-peak.png",
+          "role": "strict input evidence; WebRTC visible mouth-motion peak frame",
+          "fidelity": "preserve the image and mouth region exactly; do not retouch or alter the face"
+        }
+      ],
+      "requires_context_images": true,
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "/root/slide_09",
+        "agent_nickname": "slide_09",
+        "prompt": "prompts/slide_09.json",
+        "prompt_sha256": "b61db6a8a4a4d2870cd5c18cb7157f2d96c1d91d526e11d449c8b066d4948eb4",
+        "dispatched_at": "2026-07-16T10:27:09Z"
+      },
+      "result": {
+        "agent_id": "user-approved-workflow-exception",
+        "backend_used": "deterministic exact screenshot composition",
+        "selected_source": "F:\\灵境导游——面向智慧景区的多模态 AI 数字人导览系统\\灵境导游_比赛产品方案PPT\\origin_image\\slide_09.png",
+        "selected_source_sha256": "871ffbcfcde8734534090da62a8bd4159f1b402286750931576d098e2dde2b01",
+        "final_image": "origin_image/slide_09.png",
+        "final_image_sha256": "871ffbcfcde8734534090da62a8bd4159f1b402286750931576d098e2dde2b01",
+        "expected_backend": null,
+        "expected_backend_labels": [
+          "user-approved product screenshot exception"
+        ],
+        "sample_generation_method_matched": false,
+        "qa_note": "两张证据帧保持原始像素；标题与底部总结改为正向验证口径，突出达到项目目标、关键检查通过和证据可复核；数值保持不变。",
+        "user_override": {
+          "approved": true,
+          "approval_text": "用户于 2026-07-16 要求删除负向限制表述并改为正向、真实的成果总结。",
+          "recorded_at": "2026-07-16T11:12:42Z"
+        },
+        "recorded_at": "2026-07-16T11:12:42Z"
+      },
+      "blocker": null,
+      "resolved_blocker": null
+    },
+    {
+      "slide_id": "slide_10",
+      "number": 10,
+      "title": "团队与愿景",
+      "job": "prompts/slide_10.json",
+      "out": "origin_image/slide_10.png",
+      "input_images": [
+        {
+          "path": "F:\\灵境导游——面向智慧景区的多模态 AI 数字人导览系统\\灵境导游_比赛产品方案PPT\\origin_image\\slide_05.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match palette, typography mood, paper texture, ink illustration language and density only; do not copy the exact layout or content"
+        }
+      ],
+      "requires_context_images": true,
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "/root/slide_10",
+        "agent_nickname": "slide_10",
+        "prompt": "prompts/slide_10.json",
+        "prompt_sha256": "8f369cc0991370ea72f0116f6058411baac1e1f360580568e86347d9468b371d",
+        "dispatched_at": "2026-07-16T11:19:23Z"
+      },
+      "result": {
+        "agent_id": "user-directed-generated-revision",
+        "backend_used": "built-in image tool",
+        "selected_source": "C:\\Users\\陈术\\.codex\\generated_images\\019f6aa6-453e-7f90-95c7-f724a7440673\\exec-2add75bc-4a1e-4ca9-b674-66b295ad4765.png",
+        "selected_source_sha256": "52936ac1da7a8a3b69388ff36f828662d85c3ead1566487bef2039c65b571bdd",
+        "final_image": "origin_image/slide_10.png",
+        "final_image_sha256": "52936ac1da7a8a3b69388ff36f828662d85c3ead1566487bef2039c65b571bdd",
+        "expected_backend": "built-in image tool",
+        "expected_backend_labels": [
+          "built-in image tool",
+          "image_gen__imagegen"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "右栏已改为产品化能力：现场可演示、景区可适配、方案可复制；旧的下一步与未完成项已全部移除，其余内容保持准确。",
+        "user_revision": {
+          "approved": true,
+          "approval_text": "用户于 2026-07-16 指出比赛收尾页不应展示未完成的下一步，要求改为正向产品化能力。",
+          "recorded_at": "2026-07-16T11:34:53Z"
+        },
+        "revisions": [
+          {
+            "selected_source": "C:\\Users\\陈术\\.codex\\generated_images\\019f6aa6-453e-7f90-95c7-f724a7440673\\exec-30fbdc18-0fe2-425e-bd91-f966e91448b0.png",
+            "final_image_sha256": "c295e10946dda2270dd7a78b990258ca92e458390282f65b0e6d59b337b4b0bf",
+            "qa_note": "团队姓名、指导老师、学校与队名准确；三人分工、三步路线和愿景完整；无虚构信息、重叠或截断，风格一致。",
+            "replaced_at": "2026-07-16T11:34:53Z"
+          }
+        ],
+        "recorded_at": "2026-07-16T11:34:53Z"
+      },
+      "blocker": null
+    }
+  ],
+  "updated_at": "2026-07-16T11:34:53Z"
+}

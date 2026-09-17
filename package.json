@@ -1,0 +1,41 @@
+{
+  "name": "lingjing-guide-ai-human",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "location-test": "node --experimental-strip-types --test scripts/tests/location-math.test.mjs",
+    "location-contract:test": "node --test scripts/tests/visitor-location-contract.test.mjs",
+    "startup-audit": "node scripts/audit-startup-scripts.mjs",
+    "copy-audit": "node scripts/audit-tourist-copy.mjs",
+    "flow-audit": "node scripts/audit-tourist-flow.mjs",
+    "admin-audit": "node scripts/audit-admin-competition.mjs",
+    "goal-audit": "node scripts/audit-goal-acceptance.mjs",
+    "competition-check": "node scripts/competition-check.mjs --live",
+    "competition-check:static": "node scripts/competition-check.mjs --static",
+    "competition-check:test": "node --test scripts/tests/competition-check.test.mjs",
+    "self-check": "node scripts/self-check.mjs",
+    "live-check": "node scripts/live-service-check.mjs",
+    "opentalking:setup": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/setup-opentalking.ps1",
+    "opentalking:runtime": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/setup-opentalking-runtime.ps1",
+    "opentalking:start": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/start-opentalking.ps1",
+    "opentalking:check": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/check-opentalking-assets.ps1"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "next": "^15.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.6.0"
+  }
+}

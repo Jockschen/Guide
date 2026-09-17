@@ -1,0 +1,30 @@
+{
+  "status": "slides_recorded",
+  "history": [
+    {
+      "from": "created",
+      "to": "jobs_prepared",
+      "at": "2026-07-16T08:20:31Z",
+      "note": "prepared slide prompt jobs"
+    },
+    {
+      "from": "jobs_prepared",
+      "to": "blocked",
+      "at": "2026-07-16T09:25:57Z",
+      "note": "slide_07: built-in image tool redrew strict desktop/mobile UI screenshots on two attempts; second attempt invented a mobile bottom input area absent from the source, so exact product-evidence fidelity is not met"
+    },
+    {
+      "from": "blocked",
+      "to": "slides_dispatched",
+      "at": "2026-07-16T11:19:23Z",
+      "note": "all slide jobs dispatched"
+    },
+    {
+      "from": "slides_dispatched",
+      "to": "slides_recorded",
+      "at": "2026-07-16T11:23:10Z",
+      "note": "all slide images recorded"
+    }
+  ],
+  "updated_at": "2026-07-16T11:34:53Z"
+}

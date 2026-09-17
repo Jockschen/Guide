@@ -1,0 +1,389 @@
+{
+  "deck_name": "灵境导游_比赛产品方案PPT",
+  "language": "Chinese",
+  "goal": "在约 8–10 分钟内向比赛评审清晰呈现灵境导游的需求价值、完整方案、核心技术、创新差异、真实产品、测试证据与团队交付能力。",
+  "selected_image_backend": "built-in image tool",
+  "max_concurrent_slides": 1,
+  "workflow_exceptions": [
+    {
+      "approved_by_user": true,
+      "approved_on": "2026-07-16",
+      "scope": "strict product/evidence image slides 7, 8 and 9",
+      "method": "deterministic exact screenshot composition",
+      "reason": "the built-in image tool redrew strict UI and WebRTC evidence; the user selected exact image fidelity over the pure image-generation constraint",
+      "fidelity_rule": "source screenshots and evidence frames are embedded at native resolution and verified byte-for-byte after placement; only the surrounding slide background, title, labels, metrics and borders are drawn"
+    }
+  ],
+  "sample_generation_method": {
+    "backend_used": "built-in image tool",
+    "tool_name": "image_gen__imagegen",
+    "mode": "generate",
+    "prompt_source": "Codex conversation prompt approved on 2026-07-16 for slide 05",
+    "size": "16:9 landscape, 1672x939 generated output",
+    "quality": "built-in default",
+    "model_config": "built-in preferred image model path; exact model setting not exposed",
+    "approved_sample_path": "origin_image/slide_05.png",
+    "input_context_preparation": "The sample was generated without source images. For later slides, the parent inspects each local asset with view_image and supplies local paths to image_gen as references; the approved sample is a style-only reference.",
+    "handoff_rule": "Subagents must use the same built-in image tool and generation mode; return a blocker if that path is unavailable."
+  },
+  "approved_style_reference": {
+    "path": "origin_image/slide_05.png",
+    "role": "approved sample slide style reference",
+    "fidelity": "match palette, typography mood, paper texture, ink illustration language and density only; do not copy the exact layout or content"
+  },
+  "style": {
+    "name": "山水科技答辩风",
+    "visual_direction": "formal Chinese innovation-competition defense deck combining restrained landscape-scroll aesthetics with modern information graphics; credible, cultured, evidence-led, calm and product-ready",
+    "color_palette": "warm paper white #F7F1E6, ink blue #0B3A66, indigo teal #2F617A, very sparse cinnabar red #C84C35; avoid blue gradients and neon",
+    "typography": "large dignified Chinese serif-like titles, clean readable Chinese sans-serif body, strong hierarchy, exact Chinese text, restrained English technical terms",
+    "texture_and_finish": "subtle rice-paper fibers, very pale low-contrast mountain-and-water ink linework, crisp modern diagrams, thin ink-blue rules, sparse cinnabar seal-like emphasis",
+    "deck_consistency": "keep the same palette, typography mood, paper texture, line-art icon language and cultural-tech balance across all slides; vary composition by semantic role",
+    "forbidden": "cyberpunk, neon, glassmorphism, generic blue technology gradient, dense card walls, excessive decoration, invented logos, watermarks, slide numbers"
+  },
+  "deck_context": {
+    "source_summary": "灵境导游面向智慧景区游客导览与运营管理，使用本地景区知识库、Qwen、多模态输入、Edge 中文语音、OpenTalking QuickTalk 与 WebRTC，提供实时问答、景点讲解、个性化推荐游线、数字人呈现和运营闭环。",
+    "core_claim": "景区真正需要的不是会说话的海报，而是一套 7×24、基于本地资料、可持续运营、可降级且有证据边界的数字导游系统。",
+    "canonical_terms": [
+      "灵境导游",
+      "A5—景区导览服务 AI 数字人",
+      "Qwen + RAG",
+      "OpenTalking QuickTalk",
+      "WebRTC",
+      "个性化推荐游线"
+    ],
+    "canonical_facts": [
+      "3 份本地资料、22 个景点、66 个可检索知识分片、113 条 FAQ",
+      "固定 17 题本地自测 17/17=100%；隐藏 30 题本地自测 28/30=93.33%",
+      "所有自测均非比赛官方评测",
+      "最新 WebRTC 报告为 720×720、25fps 目标档；会话创建到首个视频帧约 0.76s，音频到 speaking 约 0.19s，音频到可见口型运动约 2.93s",
+      "完整语音问答 30 次真实样本 P95<5s 仍待比赛机器现场实测"
+    ]
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": "灵境导游",
+      "role": "cover",
+      "intent": "用真实景区与数字人形象建立文化辨识度，第一眼讲清产品定位和参赛信息。",
+      "key_points": [
+        "面向智慧景区的多模态 AI 数字人导览系统",
+        "让每位游客随时拥有一位懂景区、会讲解、能规划的数字人导游",
+        "华中农业大学｜Blue 队｜A5—景区导览服务 AI 数字人｜指导老师：李光敏"
+      ],
+      "local_context": {
+        "required_background": "封面必须突出产品名称和一句话价值，参赛信息清晰但次于主标题。数字人形象是主角，景区主视觉建立灵山场景。"
+      },
+      "required_images": [
+        {
+          "path": "../public/assets/generated/hero-lingshan-v2.png",
+          "role": "strict input asset; scenic background and brand environment",
+          "fidelity": "preserve the scenic identity and main landmark; atmospheric crop and soft paper-texture blending are allowed"
+        },
+        {
+          "path": "../public/assets/generated/avatar-guide-v2.png",
+          "role": "strict input asset; the current Lingjing digital-human guide",
+          "fidelity": "preserve the same woman's identity, facial features, hairstyle, navy-and-ivory Chinese outfit and red knot; do not replace or redesign the person"
+        }
+      ],
+      "layout": {
+        "composition": "asymmetric cinematic cover: title and value proposition on the left 54%, digital-human half body on the right 38%, supplied scenic image spanning the background with a warm translucent paper veil",
+        "content_zones": "small cinnabar competition tag at top-left; large product title and subtitle left-center; one-line value proposition below; team and school information near bottom-left; avatar right with clear face and upper body",
+        "variation_rule": "cover composition is unique; do not use the six-step diagram layout from the sample",
+        "spacing": "generous whitespace around title, safe margins, no text over the face"
+      },
+      "visual_elements": {
+        "main_visual": "the supplied digital-human guide over the supplied Ling Shan scenic background",
+        "supporting_elements": "subtle ink-blue mountain contour and one restrained cinnabar seal-like tag; no invented logo"
+      },
+      "source_image_rules": "Use the supplied images as strict content assets. Preserve the avatar identity and outfit. Preserve the scenic landmark. Do not synthesize a different woman or different scenic site.",
+      "constraints": [
+        "Render the exact product title 灵境导游 prominently.",
+        "Render A5—景区导览服务 AI 数字人 exactly.",
+        "No extra slogans, no page number, no watermark, no invented institution logo."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "为什么景区需要 AI 数字人导游",
+      "role": "context and problem framing",
+      "intent": "沿游客旅程展示传统景区导览的三重断点，并形成明确的问题结论。",
+      "key_points": [
+        "游客：旺季导游不足，录音导览无法回答临时问题",
+        "体验：户外行走、弱网与定位失败容易打断游览",
+        "运营：高频问题、游客情绪与知识更新缺少闭环",
+        "需要 7×24、基于本地资料、可持续运营的数字导游"
+      ],
+      "local_context": {
+        "required_background": "问题不是单一的人力不足，而是游客即时服务、复杂现场体验和景区运营数据三处同时断裂。"
+      },
+      "layout": {
+        "composition": "one horizontal visitor-journey ink line from 行前 to 游中 to 游后 with three prominent fracture points; each fracture has one concise problem and a small contextual illustration; bottom conclusion strip bridges to the solution",
+        "content_zones": "title top-left; journey across center; three pain-point annotations above and below the line; cinnabar conclusion at bottom-right",
+        "variation_rule": "narrative timeline, not cards and not architecture blocks",
+        "spacing": "medium density with clear left-to-right reading order"
+      },
+      "visual_elements": {
+        "main_visual": "ink-style visitor journey with human guide shortage, mobile interruption and fragmented operation data metaphors",
+        "supporting_elements": "three cinnabar fracture markers and a calm opportunity arrow"
+      },
+      "constraints": [
+        "Do not use generic business people stock imagery.",
+        "Keep the conclusion visually stronger than the three details."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "一套系统，连接游客体验与景区运营",
+      "role": "overall solution",
+      "intent": "展示游客、数字人和运营后台如何围绕同一智能中枢形成服务与数据回流闭环。",
+      "key_points": [
+        "游客侧｜文本、语音、图片 → 问答、讲解、推荐游线",
+        "数字人侧｜中文语音、实时字幕、WebRTC 真实口型",
+        "运营侧｜知识、形象、反馈、质量与数据统一管理",
+        "服务产生数据，数据反哺知识与运营"
+      ],
+      "local_context": {
+        "required_background": "方案价值在于游客端即时服务和运营端持续优化不是两套孤立产品，而是一个循环。"
+      },
+      "layout": {
+        "composition": "central circular Lingjing intelligent hub; visitor multimodal entry on the left, digital-human experience at top-right, scenic-operation console at bottom-right; two directional ink-blue arrows form a service-data loop",
+        "content_zones": "title and one-sentence claim top; solution diagram center; concise loop takeaway bottom",
+        "variation_rule": "hub-and-loop system map, visually distinct from slide 2 timeline and slide 5 linear pipeline",
+        "spacing": "balanced triangular composition, no dense cards"
+      },
+      "visual_elements": {
+        "main_visual": "three-domain service loop around a central AI guide hub",
+        "supporting_elements": "text, microphone, image, digital-human, knowledge and feedback line icons in the sample's ink-brush language"
+      },
+      "constraints": [
+        "Make the service loop and data feedback direction unambiguous.",
+        "Do not invent features outside the listed product scope."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "从多模态输入到实时数字人输出",
+      "role": "architecture",
+      "intent": "用四层架构证明产品从交互、智能、实时音视频到数据运营的工程完整性。",
+      "key_points": [
+        "交互层｜Web / 移动端：文本、录音、图片、实时画面截帧",
+        "智能层｜景区资料检索 + Qwen：回答受事实边界约束",
+        "语音与数字人层｜ASR → TTS → QuickTalk → WebRTC",
+        "数据与运营层｜3 份资料、22 个景点、66 个知识分片、113 条 FAQ",
+        "韧性链路｜session → remote → legacy_mp4 → audio_only"
+      ],
+      "local_context": {
+        "required_background": "架构页强调分层和可替换性；核心导览任务在增强模块失败时仍可继续。"
+      },
+      "layout": {
+        "composition": "four stacked architectural terraces inspired by a Chinese mountain path; input at the lower-left rises through data, intelligence and real-time media to the digital-human output at upper-right; a side branch shows the degradation chain",
+        "content_zones": "title top; four layered terraces center; knowledge facts anchored in the data layer; slim resilience path along the right edge; takeaway bottom",
+        "variation_rule": "layered architecture, not the six-circle process used on slide 5",
+        "spacing": "high information clarity with aligned layer labels and visible arrows"
+      },
+      "visual_elements": {
+        "main_visual": "four-layer technical architecture with directional dependencies",
+        "supporting_elements": "simple database, brain, waveform, WebRTC and console icons; four keywords 资料有据、回答可控、数字人实时、服务可降级"
+      },
+      "constraints": [
+        "Keep technical terms exact and readable.",
+        "Show degradation as resilience, not as four equal primary products."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "核心技术与模型",
+      "role": "core technology",
+      "intent": "解释可信问答和实时数字人两条核心链路。",
+      "key_points": [
+        "多模态输入 → 景区知识检索 → Qwen 推理 → Edge TTS → QuickTalk → WebRTC 输出",
+        "事实有据：FAQ 快速路径 + RAG 生成协同",
+        "实时呈现：同一 session 持续流，避免整段 MP4 等待",
+        "可替换、可降级、可复核"
+      ],
+      "layout": {
+        "composition": "approved sample slide; reuse final slide_05.png without regeneration"
+      },
+      "visual_elements": {
+        "main_visual": "approved six-stage technical pipeline"
+      },
+      "constraints": [
+        "Do not regenerate this approved sample slide."
+      ],
+      "sample_approved": true,
+      "use_approved_style_reference": false
+    },
+    {
+      "number": 6,
+      "title": "五项创新，构成可落地的数字导游",
+      "role": "innovation",
+      "intent": "把单点技术组合成评审可快速记住的五项产品创新。",
+      "key_points": [
+        "景区事实边界｜本地知识库限定核心事实来源",
+        "实时数字人会话｜常驻 worker + WebRTC 持续流",
+        "低门槛换形象｜一张合规正面图即可替换并预热",
+        "韧性服务｜增强能力失效时核心导览仍可继续",
+        "证据工程｜问答、口型、状态与边界可复核"
+      ],
+      "local_context": {
+        "required_background": "创新不在于简单罗列模型，而在于把可信知识、实时呈现、低门槛运营、降级可用和验收证据组合为完整产品。"
+      },
+      "layout": {
+        "composition": "five seal-like innovation nodes orbit a central value phrase 可信运营; use unequal sizes and an elegant curved ink path rather than five identical cards",
+        "content_zones": "title top-left; central value in the middle; five nodes around it; one-line synthesis at bottom",
+        "variation_rule": "radial constellation; avoid a five-column card wall",
+        "spacing": "each innovation label concise and separated"
+      },
+      "visual_elements": {
+        "main_visual": "five innovation seals connected as one deployable product system",
+        "supporting_elements": "knowledge scroll, live stream, portrait, safety net and evidence stamp metaphors"
+      },
+      "constraints": [
+        "Make all five innovation names readable at presentation distance.",
+        "Use cinnabar only on the five short innovation labels or connection nodes."
+      ]
+    },
+    {
+      "number": 7,
+      "title": "游客端：一位安静、可信的随身导游",
+      "role": "product case study",
+      "intent": "以真实桌面和移动界面证明数字人导览已经具备完整产品体验。",
+      "key_points": [
+        "桌面端｜数字人、对话与当前游线同屏",
+        "移动端｜单列响应式布局，字幕与核心操作不丢失",
+        "支持快捷提问、语音输入、图片识别与个性化推荐游线",
+        "数字人是陪伴者，不遮挡任务"
+      ],
+      "required_images": [
+        {
+          "path": "../reports/visual/ui-after/desktop-1440x900.png",
+          "role": "strict input asset; current tourist desktop product screenshot",
+          "fidelity": "preserve the screenshot interface, text, avatar, brand and interaction layout; do not redraw or replace it with an imagined interface"
+        },
+        {
+          "path": "../reports/visual/ui-after/mobile-390x844.png",
+          "role": "strict input asset; current tourist mobile product screenshot",
+          "fidelity": "preserve the screenshot interface, text, avatar and responsive layout; do not redraw or replace it"
+        }
+      ],
+      "layout": {
+        "composition": "desktop screenshot as a large landscape panel occupying about 66% width; mobile screenshot overlaps slightly at the right as a tall device-like crop; three small ink-line callouts point to digital-human stage, dialogue/route tabs and voice input",
+        "content_zones": "title top; screenshots center; concise product principles along bottom-left",
+        "variation_rule": "visual product showcase with screenshots as dominant evidence",
+        "spacing": "screenshots remain large and readable, callouts never cover important UI text"
+      },
+      "visual_elements": {
+        "main_visual": "the two supplied product screenshots",
+        "supporting_elements": "thin ink-blue frame, restrained arrows and cinnabar highlight dots"
+      },
+      "source_image_rules": "The screenshots are strict evidence assets. Include them visibly and preserve their pixels and UI content; do not synthesize replacement screens.",
+      "constraints": [
+        "Do not place the screenshots inside a photorealistic laptop mockup.",
+        "Keep Chinese UI text as supplied; no invented interface copy."
+      ]
+    },
+    {
+      "number": 8,
+      "title": "运营后台：让每一次服务持续变好",
+      "role": "product case study",
+      "intent": "用真实运营后台展示知识、数字人、反馈、质量和数据如何形成管理闭环。",
+      "key_points": [
+        "运营概览｜服务人次、问答量、满意度、趋势与热门问题",
+        "知识内容｜基础资料只读保护，运营资料可维护并重建索引",
+        "数字人形象｜上传形象、设置人设与声音、保存应用",
+        "游客感受与质量｜反馈处理闭环，自测口径明确"
+      ],
+      "required_images": [
+        {
+          "path": "../reports/visual/ui-after/admin-1440x900.png",
+          "role": "strict input asset; current admin operation overview screenshot",
+          "fidelity": "preserve the screenshot structure, Chinese UI text, charts and data-source labels; do not redraw or invent a different dashboard"
+        }
+      ],
+      "layout": {
+        "composition": "large admin screenshot panel on the left 68%; on the right, one vertical closed-loop path with four stops 知识 → 服务 → 反馈 → 优化; a concise conclusion sits at the bottom-right",
+        "content_zones": "title top; screenshot left; loop and four concise capabilities right",
+        "variation_rule": "single-screen evidence plus vertical loop; distinct from slide 7 dual-device collage",
+        "spacing": "screenshot stays large, right-side text is brief and aligned"
+      },
+      "visual_elements": {
+        "main_visual": "the supplied admin console screenshot",
+        "supporting_elements": "four-stop ink-blue operational loop with one cinnabar feedback node"
+      },
+      "source_image_rules": "The admin screenshot is a strict evidence asset. Preserve it and do not synthesize a replacement dashboard.",
+      "constraints": [
+        "Do not alter metrics shown inside the supplied screenshot.",
+        "Do not imply the sample data is live real-world passenger traffic."
+      ]
+    },
+    {
+      "number": 9,
+      "title": "测试数据：准确率与实时交互双重验证",
+      "role": "data evidence",
+      "intent": "用准确率、实时链路和口型运动证据建立可信度，同时明确本地自测与官方评测边界。",
+      "key_points": [
+        "固定 17 题：17/17＝100%｜隐藏 30 题：28/30＝93.33%",
+        "WebRTC 音视频轨、speaking 状态、连续帧变化与可见嘴部运动检查通过",
+        "首个视频帧约 0.76s｜音频到 speaking 约 0.19s｜音频到可见口型约 2.93s",
+        "项目问答测试达到目标；关键链路检查通过；逐项报告与原始证据帧可复核"
+      ],
+      "required_images": [
+        {
+          "path": "../reports/quality/opentalking-webrtc-evidence/mouth-before.png",
+          "role": "strict input evidence; WebRTC mouth-motion before frame",
+          "fidelity": "preserve the image and mouth region exactly; do not retouch or alter the face"
+        },
+        {
+          "path": "../reports/quality/opentalking-webrtc-evidence/mouth-motion-peak.png",
+          "role": "strict input evidence; WebRTC visible mouth-motion peak frame",
+          "fidelity": "preserve the image and mouth region exactly; do not retouch or alter the face"
+        }
+      ],
+      "layout": {
+        "composition": "left 55% evidence dashboard with two accuracy indicators and three latency milestones; right 38% side-by-side before/visible-mouth-motion image comparison; bottom full-width positive evidence-summary strip",
+        "content_zones": "title top; metrics left; strict evidence images right with exact captions 口型运动前 and 口型运动峰值; positive validation summary bottom",
+        "variation_rule": "data evidence page with clear hierarchy and no decorative chart clutter",
+        "spacing": "large numbers, short labels, images large enough to inspect"
+      },
+      "visual_elements": {
+        "main_visual": "two accuracy ratios, three timing milestones and the supplied before/after evidence frames",
+        "supporting_elements": "blue 已证实 markers and three concise positive validation conclusions"
+      },
+      "source_image_rules": "The two evidence frames are strict. Do not modify the person, face or mouth; use them as supplied and label them clearly.",
+      "constraints": [
+        "Use the exact values 100%, 93.33%, 0.76s, 0.19s and 2.93s."
+      ]
+    },
+    {
+      "number": 10,
+      "title": "团队与愿景",
+      "role": "team and closing",
+      "intent": "用三人互补能力、已交付成果和下一步路线证明团队执行力，并以产品愿景收束。",
+      "key_points": [
+        "陈术（队长）｜产品规划、系统架构、前后端集成、比赛统筹",
+        "李梦琦｜Qwen/RAG、多模态与语音适配、问答评测",
+        "卢莹｜数字人链路、游客体验、运营后台、演示呈现",
+        "指导老师：李光敏｜华中农业大学 Blue 队",
+        "让每一处风景，都有一位懂它、会讲它、能陪伴游客的数字人导游"
+      ],
+      "local_context": {
+        "required_background": "产品化能力包括现场可演示、景区可适配和方案可复制；游客端、运营端与真实数字人已完整交付，知识、形象、声音和运营数据可灵活接入，并具备标准化部署、文档与运维闭环。"
+      },
+      "layout": {
+        "composition": "three parallel capability streams named 产品系统、算法知识、数字人体验 flow from three team-member name seals into one delivered-product milestone; three productization capabilities extend to the right; the closing vision anchors the bottom",
+        "content_zones": "team and institution information top-left; three member streams center; productization capabilities right; large closing sentence bottom",
+        "variation_rule": "human capability map and roadmap, not portrait cards",
+        "spacing": "names and responsibilities readable, closing line has generous breathing room"
+      },
+      "visual_elements": {
+        "main_visual": "three-team-member capability streams merging into the Lingjing Guide product",
+        "supporting_elements": "three productization markers 现场可演示、景区可适配、方案可复制 and a subtle rising mountain-path metaphor"
+      },
+      "constraints": [
+        "Render all Chinese names exactly: 陈术、李梦琦、卢莹、李光敏.",
+        "Render 华中农业大学 and Blue 队 exactly.",
+        "Do not invent member portraits, degrees, awards, contact details or institution logos."
+      ]
+    }
+  ]
+}

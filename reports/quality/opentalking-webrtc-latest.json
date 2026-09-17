@@ -1,0 +1,73 @@
+{
+  "ok": true,
+  "transport": "webrtc",
+  "model": "quicktalk",
+  "base_url": "http://127.0.0.1:8000",
+  "audio": {
+    "source_file": "F:\\灵境导游——面向智慧景区的多模态 AI 数字人导览系统\\backend\\storage\\audio\\edge-20260715085553-d9bb7b0a.wav",
+    "provider": "edge",
+    "format": "pcm_wav",
+    "sample_rate_hz": 24000,
+    "channels": 1,
+    "sample_width_bits": 16,
+    "duration_seconds": 2.376,
+    "size_bytes": 114092
+  },
+  "avatar_id": "lingjing-guide-quicktalk",
+  "profile": {
+    "avatar_id": "lingjing-guide-quicktalk",
+    "model": "quicktalk",
+    "target_fps": 25,
+    "target_resolution": "720x720"
+  },
+  "session_id": "sess_084a11de5102",
+  "session_state_after_capture": "speaking",
+  "track_kinds": [
+    "audio",
+    "video"
+  ],
+  "peer_connection_state": "connected",
+  "checks": {
+    "video_track_received": true,
+    "peer_connected": true,
+    "speaking_state_seen": true,
+    "enough_streamed_frames": true,
+    "frames_are_not_frozen": true,
+    "visible_mouth_motion": true
+  },
+  "metrics": {
+    "idle_frame_count": 30,
+    "speaking_frame_count": 126,
+    "speaking_unique_frames": 126,
+    "idle_mouth_delta_mean": 0.3796,
+    "idle_mouth_delta_p95": 1.1044,
+    "speaking_mouth_delta_mean": 0.6294,
+    "speaking_mouth_delta_p95": 3.1925,
+    "speaking_mouth_delta_max": 7.5217
+  },
+  "latency_ms": {
+    "session_create_to_ready": 270.5,
+    "webrtc_offer": 97.7,
+    "session_create_to_first_video_frame": 755.5,
+    "audio_upload": 173.0,
+    "audio_to_speaking_state": 185.5,
+    "audio_to_visible_mouth_motion": 2927.1
+  },
+  "stream": {
+    "width": 720,
+    "height": 720,
+    "resolution": "720x720",
+    "target_fps": 25,
+    "media_timeline_fps": 25.0,
+    "validator_decode_fps": 24.18,
+    "captured_seconds": 5.169,
+    "media_timeline_seconds": 5.0
+  },
+  "elapsed_seconds": 7.379,
+  "evidence": {
+    "before_frame": "F:\\灵境导游——面向智慧景区的多模态 AI 数字人导览系统\\reports\\quality\\opentalking-webrtc-evidence\\mouth-before.png",
+    "motion_frame": "F:\\灵境导游——面向智慧景区的多模态 AI 数字人导览系统\\reports\\quality\\opentalking-webrtc-evidence\\mouth-motion-peak.png",
+    "motion_frame_index": 105,
+    "mouth_delta": 7.5217
+  }
+}

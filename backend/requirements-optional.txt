@@ -1,0 +1,2 @@
+# Optional Windows wheels vary by Python version. Install only if your machine supports it.
+faiss-cpu>=1.8.0
